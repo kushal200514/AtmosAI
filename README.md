@@ -38,7 +38,8 @@ AtmosAi/
 │   └── simulator/
 │       └── sensor_simulator.py # MQTT IoT data broadcast script (Dry-run capable)
 │
-└── frontend/                
+└── frontend/
+```          
 ⚙️ Getting Started
 1. Run the Backend API
 Navigate to the backend directory and start the FastAPI server:
