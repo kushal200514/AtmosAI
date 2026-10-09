@@ -4,7 +4,7 @@ import boto3
 from typing import Dict, Any, List
 
 BEDROCK_REGION = os.getenv("AWS_REGION", "us-east-1")
-CLAUDE_MODEL_ID = "anthropic.claude-3-5-sonnet-20240620-v1:0"
+CLAUDE_MODEL_ID = "anthropic.claude-sonnet-5"
 
 DETERMINISTIC_ACTION_TEMPLATES = {
     "delivery_rider": "Prioritize high-mileage runs before {start}; schedule rest stops in enclosed facilities during {window}.",

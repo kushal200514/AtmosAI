@@ -36,6 +36,10 @@ venv.bak/
 .env
 .env.*
 !.env.example
+certs/
+*.pem
+*.crt
+*.key
 
 # IDEs and Editors
 .vscode/
@@ -46,3 +50,7 @@ venv.bak/
 # OS Generated
 .DS_Store
 Thumbs.db
+
+#Test files 
+test_pipeline.py
+test_all.py
