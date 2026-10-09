@@ -1,0 +1,12 @@
+{
+  "model_version": "lgbm-v1.0",
+  "evaluation_period_days": 18,
+  "severe_events_total": 51,
+  "severe_events_detected": 27,
+  "severe_event_recall_pct": 52.9,
+  "precision_pct": 65.9,
+  "f1_score": 0.587,
+  "false_alarms": 14,
+  "avg_lead_time_hours": 3.8,
+  "baseline_recall_pct": 25.5
+}
